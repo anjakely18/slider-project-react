@@ -261,7 +261,7 @@ ul {
   max-width: 800px;
   position: relative;
   height: 450px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .slide {
@@ -337,6 +337,19 @@ ul {
 .next {
   right: 0;
 }
+
+/* Move to the right
+.next-slide-right {
+  transform: translateX(100%);
+}
+
+.next-slide-left {
+  transform: translateX(-100%);
+}
+
+.active-slide {
+  transform: translateX(0);
+} */
 
 @media screen and (min-width: 800px) {
   .text {
